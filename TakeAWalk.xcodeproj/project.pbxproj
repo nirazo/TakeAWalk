@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2BFE43419E835150079A175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFE43319E835150079A175 /* AppDelegate.swift */; };
+		D2BFE43719E835150079A175 /* TakeAWalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2BFE43519E835150079A175 /* TakeAWalk.xcdatamodeld */; };
+		D2BFE43919E835150079A175 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFE43819E835150079A175 /* ViewController.swift */; };
+		D2BFE43C19E835150079A175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BFE43A19E835150079A175 /* Main.storyboard */; };
+		D2BFE43E19E835150079A175 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2BFE43D19E835150079A175 /* Images.xcassets */; };
+		D2BFE44119E835150079A175 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2BFE43F19E835150079A175 /* LaunchScreen.xib */; };
+		D2BFE44D19E835150079A175 /* TakeAWalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFE44C19E835150079A175 /* TakeAWalkTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2BFE44719E835150079A175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2BFE42619E835150079A175 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2BFE42D19E835150079A175;
+			remoteInfo = TakeAWalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2BFE42E19E835150079A175 /* TakeAWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeAWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BFE43219E835150079A175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2BFE43319E835150079A175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2BFE43619E835150079A175 /* TakeAWalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TakeAWalk.xcdatamodel; sourceTree = "<group>"; };
+		D2BFE43819E835150079A175 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2BFE43B19E835150079A175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2BFE43D19E835150079A175 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D2BFE44019E835150079A175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D2BFE44619E835150079A175 /* TakeAWalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeAWalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BFE44B19E835150079A175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2BFE44C19E835150079A175 /* TakeAWalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeAWalkTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2BFE42B19E835150079A175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2BFE44319E835150079A175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2BFE42519E835150079A175 = {
+			isa = PBXGroup;
+			children = (
+				D2BFE43019E835150079A175 /* TakeAWalk */,
+				D2BFE44919E835150079A175 /* TakeAWalkTests */,
+				D2BFE42F19E835150079A175 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2BFE42F19E835150079A175 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2BFE42E19E835150079A175 /* TakeAWalk.app */,
+				D2BFE44619E835150079A175 /* TakeAWalkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2BFE43019E835150079A175 /* TakeAWalk */ = {
+			isa = PBXGroup;
+			children = (
+				D2BFE43319E835150079A175 /* AppDelegate.swift */,
+				D2BFE43819E835150079A175 /* ViewController.swift */,
+				D2BFE43A19E835150079A175 /* Main.storyboard */,
+				D2BFE43D19E835150079A175 /* Images.xcassets */,
+				D2BFE43F19E835150079A175 /* LaunchScreen.xib */,
+				D2BFE43519E835150079A175 /* TakeAWalk.xcdatamodeld */,
+				D2BFE43119E835150079A175 /* Supporting Files */,
+			);
+			path = TakeAWalk;
+			sourceTree = "<group>";
+		};
+		D2BFE43119E835150079A175 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2BFE43219E835150079A175 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2BFE44919E835150079A175 /* TakeAWalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2BFE44C19E835150079A175 /* TakeAWalkTests.swift */,
+				D2BFE44A19E835150079A175 /* Supporting Files */,
+			);
+			path = TakeAWalkTests;
+			sourceTree = "<group>";
+		};
+		D2BFE44A19E835150079A175 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2BFE44B19E835150079A175 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2BFE42D19E835150079A175 /* TakeAWalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2BFE45019E835150079A175 /* Build configuration list for PBXNativeTarget "TakeAWalk" */;
+			buildPhases = (
+				D2BFE42A19E835150079A175 /* Sources */,
+				D2BFE42B19E835150079A175 /* Frameworks */,
+				D2BFE42C19E835150079A175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakeAWalk;
+			productName = TakeAWalk;
+			productReference = D2BFE42E19E835150079A175 /* TakeAWalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2BFE44519E835150079A175 /* TakeAWalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2BFE45319E835150079A175 /* Build configuration list for PBXNativeTarget "TakeAWalkTests" */;
+			buildPhases = (
+				D2BFE44219E835150079A175 /* Sources */,
+				D2BFE44319E835150079A175 /* Frameworks */,
+				D2BFE44419E835150079A175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2BFE44819E835150079A175 /* PBXTargetDependency */,
+			);
+			name = TakeAWalkTests;
+			productName = TakeAWalkTests;
+			productReference = D2BFE44619E835150079A175 /* TakeAWalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2BFE42619E835150079A175 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Kenzo;
+				TargetAttributes = {
+					D2BFE42D19E835150079A175 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					D2BFE44519E835150079A175 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = D2BFE42D19E835150079A175;
+					};
+				};
+			};
+			buildConfigurationList = D2BFE42919E835150079A175 /* Build configuration list for PBXProject "TakeAWalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2BFE42519E835150079A175;
+			productRefGroup = D2BFE42F19E835150079A175 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2BFE42D19E835150079A175 /* TakeAWalk */,
+				D2BFE44519E835150079A175 /* TakeAWalkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2BFE42C19E835150079A175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BFE43C19E835150079A175 /* Main.storyboard in Resources */,
+				D2BFE44119E835150079A175 /* LaunchScreen.xib in Resources */,
+				D2BFE43E19E835150079A175 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2BFE44419E835150079A175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2BFE42A19E835150079A175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BFE43919E835150079A175 /* ViewController.swift in Sources */,
+				D2BFE43419E835150079A175 /* AppDelegate.swift in Sources */,
+				D2BFE43719E835150079A175 /* TakeAWalk.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2BFE44219E835150079A175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BFE44D19E835150079A175 /* TakeAWalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2BFE44819E835150079A175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2BFE42D19E835150079A175 /* TakeAWalk */;
+			targetProxy = D2BFE44719E835150079A175 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2BFE43A19E835150079A175 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2BFE43B19E835150079A175 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2BFE43F19E835150079A175 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2BFE44019E835150079A175 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2BFE44E19E835150079A175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2BFE44F19E835150079A175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2BFE45119E835150079A175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TakeAWalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2BFE45219E835150079A175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TakeAWalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2BFE45419E835150079A175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TakeAWalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeAWalk.app/TakeAWalk";
+			};
+			name = Debug;
+		};
+		D2BFE45519E835150079A175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TakeAWalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeAWalk.app/TakeAWalk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2BFE42919E835150079A175 /* Build configuration list for PBXProject "TakeAWalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BFE44E19E835150079A175 /* Debug */,
+				D2BFE44F19E835150079A175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2BFE45019E835150079A175 /* Build configuration list for PBXNativeTarget "TakeAWalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BFE45119E835150079A175 /* Debug */,
+				D2BFE45219E835150079A175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2BFE45319E835150079A175 /* Build configuration list for PBXNativeTarget "TakeAWalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BFE45419E835150079A175 /* Debug */,
+				D2BFE45519E835150079A175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2BFE43519E835150079A175 /* TakeAWalk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2BFE43619E835150079A175 /* TakeAWalk.xcdatamodel */,
+			);
+			currentVersion = D2BFE43619E835150079A175 /* TakeAWalk.xcdatamodel */;
+			path = TakeAWalk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D2BFE42619E835150079A175 /* Project object */;
+}
