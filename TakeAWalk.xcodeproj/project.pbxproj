@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC01F9886DD739E54E9ED30F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC93D8D53DD4F21EE0EBB5A /* libPods.a */; };
+		D27984A119EABB6800FE28BD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27984A019EABB6800FE28BD /* SystemConfiguration.framework */; };
+		D27984A319EABB7100FE28BD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27984A219EABB7100FE28BD /* Security.framework */; };
+		D28FB7F719F00FB600E7E560 /* SpotThumbnailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB7F619F00FB600E7E560 /* SpotThumbnailListViewController.swift */; };
+		D28FB7F919F012F500E7E560 /* SpotThumbnailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB7F819F012F500E7E560 /* SpotThumbnailViewCell.swift */; };
 		D2BFE43419E835150079A175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFE43319E835150079A175 /* AppDelegate.swift */; };
 		D2BFE43719E835150079A175 /* TakeAWalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2BFE43519E835150079A175 /* TakeAWalk.xcdatamodeld */; };
 		D2BFE43919E835150079A175 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFE43819E835150079A175 /* ViewController.swift */; };
-		D2BFE43C19E835150079A175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BFE43A19E835150079A175 /* Main.storyboard */; };
 		D2BFE43E19E835150079A175 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2BFE43D19E835150079A175 /* Images.xcassets */; };
 		D2BFE44119E835150079A175 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2BFE43F19E835150079A175 /* LaunchScreen.xib */; };
 		D2BFE44D19E835150079A175 /* TakeAWalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFE44C19E835150079A175 /* TakeAWalkTests.swift */; };
@@ -27,17 +31,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9DB4E1CFDCF870E2E75FC1B9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CE19110E164F7E241A2A9FFB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D279849C19EAB83D00FE28BD /* TakeAWalk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TakeAWalk-Bridging-Header.h"; sourceTree = "<group>"; };
+		D27984A019EABB6800FE28BD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D27984A219EABB7100FE28BD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D28FB7F619F00FB600E7E560 /* SpotThumbnailListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotThumbnailListViewController.swift; sourceTree = "<group>"; };
+		D28FB7F819F012F500E7E560 /* SpotThumbnailViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotThumbnailViewCell.swift; sourceTree = "<group>"; };
 		D2BFE42E19E835150079A175 /* TakeAWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeAWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2BFE43219E835150079A175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2BFE43319E835150079A175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2BFE43619E835150079A175 /* TakeAWalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TakeAWalk.xcdatamodel; sourceTree = "<group>"; };
 		D2BFE43819E835150079A175 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D2BFE43B19E835150079A175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2BFE43D19E835150079A175 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D2BFE44019E835150079A175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D2BFE44619E835150079A175 /* TakeAWalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeAWalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2BFE44B19E835150079A175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2BFE44C19E835150079A175 /* TakeAWalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeAWalkTests.swift; sourceTree = "<group>"; };
+		DFC93D8D53DD4F21EE0EBB5A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D27984A319EABB7100FE28BD /* Security.framework in Frameworks */,
+				D27984A119EABB6800FE28BD /* SystemConfiguration.framework in Frameworks */,
+				AC01F9886DD739E54E9ED30F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +72,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		239F9F2157267D38953DAF1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D27984A219EABB7100FE28BD /* Security.framework */,
+				D27984A019EABB6800FE28BD /* SystemConfiguration.framework */,
+				DFC93D8D53DD4F21EE0EBB5A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BAD65DF8D67AB3B43D12FD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DB4E1CFDCF870E2E75FC1B9 /* Pods.debug.xcconfig */,
+				CE19110E164F7E241A2A9FFB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D2BFE42519E835150079A175 = {
 			isa = PBXGroup;
 			children = (
 				D2BFE43019E835150079A175 /* TakeAWalk */,
 				D2BFE44919E835150079A175 /* TakeAWalkTests */,
 				D2BFE42F19E835150079A175 /* Products */,
+				8BAD65DF8D67AB3B43D12FD1 /* Pods */,
+				239F9F2157267D38953DAF1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +116,13 @@
 			children = (
 				D2BFE43319E835150079A175 /* AppDelegate.swift */,
 				D2BFE43819E835150079A175 /* ViewController.swift */,
-				D2BFE43A19E835150079A175 /* Main.storyboard */,
 				D2BFE43D19E835150079A175 /* Images.xcassets */,
 				D2BFE43F19E835150079A175 /* LaunchScreen.xib */,
 				D2BFE43519E835150079A175 /* TakeAWalk.xcdatamodeld */,
 				D2BFE43119E835150079A175 /* Supporting Files */,
+				D279849C19EAB83D00FE28BD /* TakeAWalk-Bridging-Header.h */,
+				D28FB7F619F00FB600E7E560 /* SpotThumbnailListViewController.swift */,
+				D28FB7F819F012F500E7E560 /* SpotThumbnailViewCell.swift */,
 			);
 			path = TakeAWalk;
 			sourceTree = "<group>";
@@ -122,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2BFE45019E835150079A175 /* Build configuration list for PBXNativeTarget "TakeAWalk" */;
 			buildPhases = (
+				5B1B724A839BBBC688810ED5 /* Check Pods Manifest.lock */,
 				D2BFE42A19E835150079A175 /* Sources */,
 				D2BFE42B19E835150079A175 /* Frameworks */,
 				D2BFE42C19E835150079A175 /* Resources */,
+				62258ED9DE74EFA68A84D29F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,6 +203,7 @@
 				TargetAttributes = {
 					D2BFE42D19E835150079A175 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = HZ4Q3RZNQT;
 					};
 					D2BFE44519E835150079A175 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -195,7 +235,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2BFE43C19E835150079A175 /* Main.storyboard in Resources */,
 				D2BFE44119E835150079A175 /* LaunchScreen.xib in Resources */,
 				D2BFE43E19E835150079A175 /* Images.xcassets in Resources */,
 			);
@@ -210,14 +249,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B1B724A839BBBC688810ED5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		62258ED9DE74EFA68A84D29F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D2BFE42A19E835150079A175 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D2BFE43919E835150079A175 /* ViewController.swift in Sources */,
+				D28FB7F719F00FB600E7E560 /* SpotThumbnailListViewController.swift in Sources */,
 				D2BFE43419E835150079A175 /* AppDelegate.swift in Sources */,
 				D2BFE43719E835150079A175 /* TakeAWalk.xcdatamodeld in Sources */,
+				D28FB7F919F012F500E7E560 /* SpotThumbnailViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,14 +314,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D2BFE43A19E835150079A175 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2BFE43B19E835150079A175 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D2BFE43F19E835150079A175 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -338,21 +404,32 @@
 		};
 		D2BFE45119E835150079A175 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DB4E1CFDCF870E2E75FC1B9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TakeAWalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TakeAWalk/TakeAWalk-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		D2BFE45219E835150079A175 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE19110E164F7E241A2A9FFB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TakeAWalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TakeAWalk/TakeAWalk-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +486,7 @@
 				D2BFE45219E835150079A175 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2BFE45319E835150079A175 /* Build configuration list for PBXNativeTarget "TakeAWalkTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +495,7 @@
 				D2BFE45519E835150079A175 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

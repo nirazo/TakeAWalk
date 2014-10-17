@@ -13,10 +13,29 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var services_: AnyObject?
 
-
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+//    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
+        // googlemaps api
+        let gApiKey : String? = "AIzaSyBQGe8Pytd14ozmUIKzPdAH8akNRHAqalc";
+        
+        if gApiKey == nil {
+            let bundleId = NSBundle.mainBundle().bundleIdentifier
+            var format = "Configure APIKey inside GoogleMapAPIKey.h for your "
+            "bundle `\(bundleId)`, see README.GoogleMapsSDKDemos for more information"
+            NSException(name:"AppDelegate",reason:format,userInfo:nil).raise()
+        }
+        GMSServices.provideAPIKey(gApiKey)
+        services_ = GMSServices.sharedServices()
+        
+        // prepare window and viewController
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window!.backgroundColor = UIColor.whiteColor()
+        self.window!.makeKeyAndVisible()
+        var viewController = ViewController()
+        self.window!.rootViewController = viewController
+        
         return true
     }
 
