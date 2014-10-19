@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SpotMapViewController.swift
 //  TakeAWalk
 //
 //  Created by Kenzo on 2014/10/11.
@@ -9,11 +9,12 @@
 import UIKit
 import CoreLocation
 
-class ViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegate {
+class SpotMapViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegate {
     
     var lm: CLLocationManager! = CLLocationManager()
     let defaultRadius = 300
     var mapView : GMSMapView = GMSMapView()
+    var spotThumbnailListViewController : SpotThumbnailListViewController = SpotThumbnailListViewController();
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +37,7 @@ class ViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDel
         frame.size.height = self.view.frame.size.height - 100
         mapView.frame = frame
         self.view.addSubview(mapView)
+        self.view.addSubview(spotThumbnailListViewController.view)
         startLocation()
     }
     

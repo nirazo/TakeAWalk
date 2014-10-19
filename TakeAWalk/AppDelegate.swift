@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var services_: AnyObject?
+    var navigationController: UINavigationController?
 
 //    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
@@ -29,12 +30,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         GMSServices.provideAPIKey(gApiKey)
         services_ = GMSServices.sharedServices()
         
+        // ViewControllerを生成する.
+        //var spotMapViewController: SpotMapViewController = SpotMapViewController()
+        var spotMapViewController: SpotThumbnailListViewController = SpotThumbnailListViewController()
+        
         // prepare window and viewController
+        navigationController = UINavigationController(rootViewController: spotMapViewController)
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         self.window!.backgroundColor = UIColor.whiteColor()
         self.window!.makeKeyAndVisible()
-        var viewController = ViewController()
-        self.window!.rootViewController = viewController
+        self.window!.rootViewController = navigationController
         
         return true
     }

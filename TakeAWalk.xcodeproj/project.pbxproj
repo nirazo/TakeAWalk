@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		AC01F9886DD739E54E9ED30F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC93D8D53DD4F21EE0EBB5A /* libPods.a */; };
+		D21F963F19F1416A00162F06 /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = D21F963A19F1416A00162F06 /* test1.png */; };
+		D21F964019F1416A00162F06 /* test5.png in Resources */ = {isa = PBXBuildFile; fileRef = D21F963B19F1416A00162F06 /* test5.png */; };
+		D21F964119F1416A00162F06 /* test4.png in Resources */ = {isa = PBXBuildFile; fileRef = D21F963C19F1416A00162F06 /* test4.png */; };
+		D21F964219F1416A00162F06 /* test3.png in Resources */ = {isa = PBXBuildFile; fileRef = D21F963D19F1416A00162F06 /* test3.png */; };
+		D21F964319F1416A00162F06 /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = D21F963E19F1416A00162F06 /* test2.png */; };
+		D21F964719F152E900162F06 /* MyFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21F964619F152E900162F06 /* MyFlowLayout.swift */; };
 		D27984A119EABB6800FE28BD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27984A019EABB6800FE28BD /* SystemConfiguration.framework */; };
 		D27984A319EABB7100FE28BD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27984A219EABB7100FE28BD /* Security.framework */; };
 		D28FB7F719F00FB600E7E560 /* SpotThumbnailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB7F619F00FB600E7E560 /* SpotThumbnailListViewController.swift */; };
 		D28FB7F919F012F500E7E560 /* SpotThumbnailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB7F819F012F500E7E560 /* SpotThumbnailViewCell.swift */; };
 		D2BFE43419E835150079A175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFE43319E835150079A175 /* AppDelegate.swift */; };
 		D2BFE43719E835150079A175 /* TakeAWalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2BFE43519E835150079A175 /* TakeAWalk.xcdatamodeld */; };
-		D2BFE43919E835150079A175 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFE43819E835150079A175 /* ViewController.swift */; };
+		D2BFE43919E835150079A175 /* SpotMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFE43819E835150079A175 /* SpotMapViewController.swift */; };
 		D2BFE43E19E835150079A175 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2BFE43D19E835150079A175 /* Images.xcassets */; };
 		D2BFE44119E835150079A175 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2BFE43F19E835150079A175 /* LaunchScreen.xib */; };
 		D2BFE44D19E835150079A175 /* TakeAWalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFE44C19E835150079A175 /* TakeAWalkTests.swift */; };
@@ -33,6 +39,12 @@
 /* Begin PBXFileReference section */
 		9DB4E1CFDCF870E2E75FC1B9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CE19110E164F7E241A2A9FFB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D21F963A19F1416A00162F06 /* test1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test1.png; path = ../../../../Desktop/test1.png; sourceTree = "<group>"; };
+		D21F963B19F1416A00162F06 /* test5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test5.png; path = ../../../../Desktop/test5.png; sourceTree = "<group>"; };
+		D21F963C19F1416A00162F06 /* test4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test4.png; path = ../../../../Desktop/test4.png; sourceTree = "<group>"; };
+		D21F963D19F1416A00162F06 /* test3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test3.png; path = ../../../../Desktop/test3.png; sourceTree = "<group>"; };
+		D21F963E19F1416A00162F06 /* test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test2.png; path = ../../../../Desktop/test2.png; sourceTree = "<group>"; };
+		D21F964619F152E900162F06 /* MyFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFlowLayout.swift; sourceTree = "<group>"; };
 		D279849C19EAB83D00FE28BD /* TakeAWalk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TakeAWalk-Bridging-Header.h"; sourceTree = "<group>"; };
 		D27984A019EABB6800FE28BD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D27984A219EABB7100FE28BD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -42,7 +54,7 @@
 		D2BFE43219E835150079A175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2BFE43319E835150079A175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2BFE43619E835150079A175 /* TakeAWalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TakeAWalk.xcdatamodel; sourceTree = "<group>"; };
-		D2BFE43819E835150079A175 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2BFE43819E835150079A175 /* SpotMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotMapViewController.swift; sourceTree = "<group>"; };
 		D2BFE43D19E835150079A175 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D2BFE44019E835150079A175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D2BFE44619E835150079A175 /* TakeAWalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeAWalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +103,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D21F963919F1414600162F06 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				D21F963A19F1416A00162F06 /* test1.png */,
+				D21F963B19F1416A00162F06 /* test5.png */,
+				D21F963C19F1416A00162F06 /* test4.png */,
+				D21F963D19F1416A00162F06 /* test3.png */,
+				D21F963E19F1416A00162F06 /* test2.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		D2BFE42519E835150079A175 = {
 			isa = PBXGroup;
 			children = (
@@ -114,8 +138,9 @@
 		D2BFE43019E835150079A175 /* TakeAWalk */ = {
 			isa = PBXGroup;
 			children = (
+				D21F963919F1414600162F06 /* img */,
 				D2BFE43319E835150079A175 /* AppDelegate.swift */,
-				D2BFE43819E835150079A175 /* ViewController.swift */,
+				D2BFE43819E835150079A175 /* SpotMapViewController.swift */,
 				D2BFE43D19E835150079A175 /* Images.xcassets */,
 				D2BFE43F19E835150079A175 /* LaunchScreen.xib */,
 				D2BFE43519E835150079A175 /* TakeAWalk.xcdatamodeld */,
@@ -123,6 +148,7 @@
 				D279849C19EAB83D00FE28BD /* TakeAWalk-Bridging-Header.h */,
 				D28FB7F619F00FB600E7E560 /* SpotThumbnailListViewController.swift */,
 				D28FB7F819F012F500E7E560 /* SpotThumbnailViewCell.swift */,
+				D21F964619F152E900162F06 /* MyFlowLayout.swift */,
 			);
 			path = TakeAWalk;
 			sourceTree = "<group>";
@@ -236,7 +262,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2BFE44119E835150079A175 /* LaunchScreen.xib in Resources */,
+				D21F964019F1416A00162F06 /* test5.png in Resources */,
+				D21F964319F1416A00162F06 /* test2.png in Resources */,
+				D21F964119F1416A00162F06 /* test4.png in Resources */,
 				D2BFE43E19E835150079A175 /* Images.xcassets in Resources */,
+				D21F963F19F1416A00162F06 /* test1.png in Resources */,
+				D21F964219F1416A00162F06 /* test3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +318,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2BFE43919E835150079A175 /* ViewController.swift in Sources */,
+				D2BFE43919E835150079A175 /* SpotMapViewController.swift in Sources */,
 				D28FB7F719F00FB600E7E560 /* SpotThumbnailListViewController.swift in Sources */,
 				D2BFE43419E835150079A175 /* AppDelegate.swift in Sources */,
 				D2BFE43719E835150079A175 /* TakeAWalk.xcdatamodeld in Sources */,
 				D28FB7F919F012F500E7E560 /* SpotThumbnailViewCell.swift in Sources */,
+				D21F964719F152E900162F06 /* MyFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
